@@ -4,7 +4,6 @@
     "runtime-version" : "20.08",
     "sdk" : "org.freedesktop.Sdk",
     "command" : "coyotetm",
-    "desktop-file-name-prefix" : "(Nightly) ",
     "finish-args" : [
         "--share=ipc",
         "--socket=x11",
@@ -66,7 +65,7 @@
                     "type" : "git",
                     "url" : "https://github.com/igaldino/coyotetm.git",
                     "branch" : "coyotetm-1-0",
-                    "commit" : "e1bcdde11c722a164f7d3f2b5cafe0527cb25b52"
+                    "commit" : "1984aa9c441bdb1a98364b49535d30efc06b8c4d"
                 }
             ]
         }
