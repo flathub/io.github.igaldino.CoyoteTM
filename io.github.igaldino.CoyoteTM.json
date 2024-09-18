@@ -60,7 +60,8 @@
             ],
             "builddir" : true,
             "post-install" : [
-                "install -Dm644 ../io.github.igaldino.CoyoteTM.svg -t /app/share/icons/hicolor/scalable/apps/"
+                "install -Dm644 ../io.github.igaldino.CoyoteTM.svg -t /app/share/icons/hicolor/scalable/apps/",
+                "desktop-file-edit --set-icon=$FLATPAK_ID /app/share/applications/${FLATPAK_ID}.desktop"
             ],
             "sources" : [
                 {
@@ -72,10 +73,12 @@
                 {
                     "type" : "file",
                     "path" : "io.github.igaldino.CoyoteTM.svg"
+                },
+                {
+                    "type" : "patch",
+                    "path" : "io.github.igaldino.CoyoteTM.appdata.xml.patch"
                 }
-
             ]
         }
-
     ]
 }
