@@ -60,7 +60,6 @@
             ],
             "builddir" : true,
             "post-install" : [
-                "rm -r /app/share/metainfo",
                 "install -Dm644 ../io.github.igaldino.CoyoteTM.svg -t /app/share/icons/hicolor/scalable/apps/"
             ],
             "sources" : [
