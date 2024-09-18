@@ -1,5 +1,5 @@
 --- a/data/appdata/io.github.igaldino.CoyoteTM.appdata.xml	2024-09-18 17:46:36.675611805 -0500
-+++ b/data/appdata/io.github.igaldino.CoyoteTM.appdata.xml	2024-09-18 16:41:05.501471807 -0500
++++ b/data/appdata/io.github.igaldino.CoyoteTM.appdata.xml	2024-09-18 18:29:18.341703031 -0500
 @@ -3,7 +3,10 @@
    <id>io.github.igaldino.CoyoteTM</id>
    <metadata_license>CC0-1.0</metadata_license>
@@ -26,13 +26,14 @@
      <release date="2021-04-19" version="1.1">
        <description>
          <p>This release brings the following new features and improvements:</p>
-@@ -64,6 +60,15 @@
+@@ -64,6 +60,16 @@
      </release>
    </releases>
  
 +  <provides>
 +    <binary>coyotetm</binary>
 +  </provides>
++  <launchable type="desktop-id">lyx.desktop</launchable>
 +
 +  <categories>
 +    <category>Utility</category>
