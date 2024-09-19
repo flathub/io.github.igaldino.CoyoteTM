@@ -33,7 +33,7 @@
 +  <provides>
 +    <binary>coyotetm</binary>
 +  </provides>
-+  <launchable type="desktop-id">lyx.desktop</launchable>
++  <launchable type="desktop-id">io.github.igaldino.CoyoteTM.desktop</launchable>
 +
 +  <categories>
 +    <category>Utility</category>
